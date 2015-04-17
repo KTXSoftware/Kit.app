@@ -3,31 +3,31 @@
 <plist version="1.0">
 <dict>
 	<key>BuildMachineOSBuild</key>
-	<string>14B25</string>
+	<string>14D131</string>
 	<key>CFBundleDisplayName</key>
-	<string>Atom</string>
+	<string>Electron</string>
 	<key>CFBundleExecutable</key>
-	<string>Atom</string>
+	<string>Electron</string>
 	<key>CFBundleIconFile</key>
 	<string>atom.icns</string>
 	<key>CFBundleIdentifier</key>
-	<string>com.github.atom-shell</string>
+	<string>com.github.electron</string>
 	<key>CFBundleInfoDictionaryVersion</key>
 	<string>6.0</string>
 	<key>CFBundleName</key>
-	<string>Atom</string>
+	<string>Electron</string>
 	<key>CFBundlePackageType</key>
 	<string>APPL</string>
 	<key>CFBundleVersion</key>
-	<string>0.20.4</string>
+	<string>0.24.0</string>
 	<key>DTSDKBuild</key>
-	<string>14A382</string>
+	<string>14D125</string>
 	<key>DTSDKName</key>
 	<string>macosx</string>
 	<key>DTXcode</key>
-	<string>0611</string>
+	<string>0630</string>
 	<key>DTXcodeBuild</key>
-	<string>6A2008a</string>
+	<string>6D570</string>
 	<key>LSMinimumSystemVersion</key>
 	<string>10.8.0</string>
 	<key>NSMainNibFile</key>

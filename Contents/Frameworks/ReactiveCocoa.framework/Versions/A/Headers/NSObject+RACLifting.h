@@ -1,10 +1,12 @@
 //
 //  NSObject+RACLifting.h
-//  iOSDemo
+//  ReactiveCocoa
 //
 //  Created by Josh Abernathy on 10/13/12.
 //  Copyright (c) 2012 GitHub, Inc. All rights reserved.
 //
+
+#import <Foundation/Foundation.h>
 
 @class RACSignal;
 
@@ -36,6 +38,10 @@
 /// Like -rac_liftSelector:withSignals:, but accepts an array instead of
 /// a variadic list of arguments.
 - (RACSignal *)rac_liftSelector:(SEL)selector withSignalsFromArray:(NSArray *)signals;
+
+/// Like -rac_liftSelector:withSignals:, but accepts a signal sending tuples of
+/// arguments instead of a variadic list of arguments.
+- (RACSignal *)rac_liftSelector:(SEL)selector withSignalOfArguments:(RACSignal *)arguments;
 
 @end
 
